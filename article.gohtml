@@ -1,23 +1,4 @@
-<!-- TODO: edit margins and such for post and make sure good for mobile and tablet as well -->
-<!-- TODO: make a way to go back to current version for version 2 - currently unable to get to version 2 from version 1-->
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>My Blog</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header>
-      <h1>My Blog Version 2</h1>
-      <nav>
-        <a href="https://rjphares.github.io">Current Version</a>
-        <a href="index.html">Home</a>
-        <a href="archive.html">Archive</a>
-        <a href="about.html">About</a>
-      </nav>
-    </header>
-    <article>
+{{define "article"}}<article>
       <header>
         <h1>A Few Changes</h1>
         <img
@@ -47,9 +28,4 @@
           I made some edits to this new version(Version 2) of the website. I edited the max width to 650px to the article. This means everything below the navigation bar and everything above the footer has a max width of 650px. I am not sure how this will look on phones and tablets. When I upload it we will find out and will make some changes to the next version if needed. I also made the text larger for the navigation bar and the article. This was suggested by Jonas Schmedtmann, who is a web instructor on udemy. He also has his own personal website with tips and tricks at <a href="https://jonas.io" target="_blank" rel="noopener noreferrer">jonas.io</a>. I also deleted the aside because not sure what to put there. Finally, I added a "Current Version" to the navigation bar incase someone goes to a previous version. 
         </p>
       </header>
-    </article>
-    <footer>
-      <p>Copyright &copy; 2025 by Robert Phares</p>
-    </footer>
-  </body>
-</html>
+    </article>{{end}}

@@ -1,5 +1,10 @@
-<!-- TODO: edit margins and such for post and make sure good for mobile and tablet as well -->
-<!-- TODO: make a way to go back to current version for version 2 - currently unable to get to version 2 from version 1-->
+<!--TODO: style rest of content(bottom half)
+-->
+<!-- DONE:  changed colors
+            added psuedo classes
+            added hyperlink styles
+            addded classes "header-h1" and "header-h2"
+-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -8,48 +13,50 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header>
-      <h1>My Blog Version 2</h1>
-      <nav>
+    <div class="container">
+      <header>
+        <h1 class="header-h1">My Blog Version 3</h1>
+        <nav>
         <a href="https://rjphares.github.io">Current Version</a>
         <a href="index.html">Home</a>
         <a href="archive.html">Archive</a>
         <a href="about.html">About</a>
       </nav>
-    </header>
-    <article>
+      </header>
+      <article>
       <header>
-        <h1>A Few Changes</h1>
-        <img
+        <h2 class="header-h2">Multiple Devices Improvement</h2>
+        <img class="header-img1"
           src="img/Robert.png"
           alt="Robert headshot"
           width="50"
           height="50"
         />
-        <p>
+        <p class="header-p1">
           Posted by
           <strong>
-            <a
-              href="https://mail.google.com/mail/?view=cm&fs=1&to=rjphares914@gmail.com"
+            <a class="email"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=rjphares914@gmail.com" target="_blank" rel="noopener noreferrer"
               >Robert Phares</a
             >
           </strong>
           on January 22nd, 2025
         </p>
-        <img
-          src="img/pizza-2978377_640.jpg"
+        <img class="header-img2"
+          src="img/monitor-313002_640.jpg"
           alt="Message in a
         bottle"
           width="300"
           height="150"
         />
         <p>
-          I made some edits to this new version(Version 2) of the website. I edited the max width to 650px to the article. This means everything below the navigation bar and everything above the footer has a max width of 650px. I am not sure how this will look on phones and tablets. When I upload it we will find out and will make some changes to the next version if needed. I also made the text larger for the navigation bar and the article. This was suggested by Jonas Schmedtmann, who is a web instructor on udemy. He also has his own personal website with tips and tricks at <a href="https://jonas.io" target="_blank" rel="noopener noreferrer">jonas.io</a>. I also deleted the aside because not sure what to put there. Finally, I added a "Current Version" to the navigation bar incase someone goes to a previous version. 
+          The display of Version 2 looks bad on phone and tablet. So this time I am going to center the content using a width of 800px and adjusting the left and right margins to auto. This is how <a class="jonas" href="https://jonas.io" target="_blank" rel="noopener noreferrer">jonas.io</a> suggested for just beginning. I know this is temporary as I am not even half way through his HTML and CSS course. But I will try this adjustment and see how it looks.
         </p>
       </header>
     </article>
-    <footer>
+      <footer>
       <p>Copyright &copy; 2025 by Robert Phares</p>
     </footer>
+    </div>
   </body>
 </html>

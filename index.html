@@ -13,26 +13,27 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="container">
-      <header>
-        <h1 class="header-h1">My Blog Version 3</h1>
-        <nav>
+    <header>
+      <h1 class="header-h1">My Blog Version 4</h1>
+      <nav>
         <a href="https://rjphares.github.io">Current Version</a>
         <a href="index.html">Home</a>
         <a href="archive.html">Archive</a>
         <a href="about.html">About</a>
       </nav>
-      </header>
-      <article>
+    </header>
+    <article>
       <header>
         <h2 class="header-h2">Multiple Devices Improvement</h2>
-        <img class="header-img1"
-          src="img/Robert.png"
-          alt="Robert headshot"
-          width="50"
-          height="50"
-        />
-        <p class="header-p1">
+        <div class="container-img1">
+          <img class="header-img1"
+            src="img/Robert.png"
+            alt="Robert headshot"
+            width="50"
+            height="50"
+          />
+        </div>
+        <p class="header-post-title">
           Posted by
           <strong>
             <a class="email"
@@ -40,23 +41,29 @@
               >Robert Phares</a
             >
           </strong>
-          on January 22nd, 2025
+          on February 5th, 2025
         </p>
-        <img class="header-img2"
-          src="img/monitor-313002_640.jpg"
-          alt="Message in a
-        bottle"
-          width="300"
-          height="150"
-        />
-        <p>
-          The display of Version 2 looks bad on phone and tablet. So this time I am going to center the content using a width of 800px and adjusting the left and right margins to auto. This is how <a class="jonas" href="https://jonas.io" target="_blank" rel="noopener noreferrer">jonas.io</a> suggested for just beginning. I know this is temporary as I am not even half way through his HTML and CSS course. But I will try this adjustment and see how it looks.
+        <div class="container-img2">
+          <img 
+            src="img/face-110104_640.jpg"
+            alt="Message in a
+          bottle"
+            width="300"
+            height="150"
+          />
+        </div>
+        <p class="header-post-body">
+          Version 3 did not turn out as well as I wanted. It was a neat trick centering the page but I think it is time for a responsive web page on multiple platforms. 
         </p>
       </header>
     </article>
-      <footer>
-      <p>Copyright &copy; 2025 by Robert Phares</p>
+    <footer>
+      <p>Copyright &copy; 2025 by <strong>
+            <a class="email"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=rjphares914@gmail.com" target="_blank" rel="noopener noreferrer"
+              >Robert Phares</a
+            >
+          </strong></p>
     </footer>
-    </div>
   </body>
 </html>

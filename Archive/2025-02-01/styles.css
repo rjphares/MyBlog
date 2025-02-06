@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: darkgreen;
+  color: white;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.header-h1 {
+  padding-bottom: 10px;
+}
+
+.header-h2 {
+  padding-bottom: 10px;
+}
+
+nav {
+  display: flex;
+  gap: 0;
+  font-size: 18px;
+}
+
+nav a:link,
+nav a:visited,
+nav a:active {
+  color: blue;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+nav a:first-child {
+  padding: 0 0 10px 0;
+}
+
+nav a:link:nth-child(n + 2),
+nav a:visited:nth-child(n + 2),
+nav a:active:nth-child(n + 2) {
+  padding: 0 0 10px 10px;
+}
+
+.email:link,
+.email:visited,
+.email:active {
+  color: blue;
+  text-decoration: none;
+}
+
+.email:hover {
+  text-decoration: underline;
+}
+
+article {
+  /* max-width: 650px; */
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+section {
+  /* max-width: 650px; */
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.header-p1 {
+  padding-bottom: 10px;
+}
+
+.header-img1 {
+  padding-bottom: 10px;
+  display: block;
+}
+
+.header-img2 {
+  padding-bottom: 10px;
+}
+
+li a:link,
+li a:visited,
+li a:active {
+  color: blue;
+  text-decoration: none;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+.jonas:link,
+.jonas:visited,
+.jonas:active {
+  color: blue;
+  text-decoration: none;
+}
+
+.jonas:hover {
+  text-decoration: underline;
+}

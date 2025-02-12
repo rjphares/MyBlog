@@ -6,14 +6,13 @@
 .header-h1 {
   background-color: #5cb338;
   /* color: #5cb338; */
-  color: white;
+  color: brown;
 }
 
 nav {
-  background-color: white;
+  background-color: #ece852;
   /* display: flex;
   gap: 0; */
-  font-size: 20px;
 }
 
 nav a {
@@ -25,39 +24,38 @@ nav a:visited,
 nav a:active {
   text-decoration: none;
   /* color: #5cb338; */
-  color: black;
+  color: brown;
 }
 
 nav a:hover {
   text-decoration: underline;
   /* color: #5cb338; */
-  color: black;
+  color: brown;
 }
 
 .header-h2 {
-  background-color: #5cb338;
+  background-color: #ffc145;
   /* color: #5cb338; */
-  color: white;
+  color: brown;
 }
 
 .container-img1 {
   display: block;
-  background-color: #5cb338;
+  background-color: #fb4141;
   line-height: 0;
 }
 
 .header-post-title {
   background-color: #5cb338;
   /* color: #5cb338; */
-  color: white;
-  font-size: 20px;
+  color: brown;
 }
 
 .email:link,
 .email:visited,
 .email:active {
   text-decoration: none;
-  color: white;
+  color: brown;
 }
 
 .email:hover {
@@ -66,38 +64,34 @@ nav a:hover {
 
 .container-img2 {
   display: block;
-  background-color: #5cb338;
+  background-color: #ece852;
   line-height: 0;
 }
 
 .header-post-body {
-  background-color: #5cb338;
-  color: white;
-  font-size: 20px;
+  background-color: #ffc145;
+  color: brown;
 }
 
 footer {
-  background-color: #5cb338;
-  color: white;
-  font-size: 16px;
-  text-align: center;
+  background-color: #f93827;
+  color: brown;
 }
 
 ul {
-  background-color: #5cb338;
+  background-color: #f93827;
   padding-left: 20px;
-  font-size: 20px;
 }
 
 ul li::marker {
-  color: white;
+  color: brown;
 }
 
 li a:link,
 li a:visited,
 li a:active {
   text-decoration: none;
-  color: white;
+  color: brown;
 }
 
 li a:hover {
@@ -106,21 +100,20 @@ li a:hover {
 
 .footer-archive footer {
   background-color: #5cb338;
-  color: white;
+  color: brown;
 }
 
 section .container-about-img {
-  background-color: #5cb338;
+  background-color: #f93827;
   line-height: 0;
 }
 
 section p {
   background-color: #5cb338;
-  color: white;
-  font-size: 20px;
+  color: brown;
 }
 
 .footer-about footer {
-  background-color: #5cb338;
-  color: white;
+  background-color: #ece852;
+  color: brown;
 }

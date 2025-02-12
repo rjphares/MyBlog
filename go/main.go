@@ -27,14 +27,14 @@ func main() {
 	defer file.Close()
 	type archive struct {
 		Version   string;
-		Directory string;
+		Link			string;
 		Date 			string;
 	}
 	archives := []archive{
-		{"Version 4", "Archive/2025-02-05/index.html", "2025-02-05"},
-		{"Version 3", "Archive/2025-02-01/index.html", "2025-02-01"},
-		{"Version 2", "Archive/2025-01-22/index.html", "2025-01-22"},
-		{"Version 1", "Archive/2025-01-19/index.html", "2025-01-19"},
+		{"Version 4", "https://rjphares.github.io/Archive/2025-02-05/index.html", "2025-02-05"},
+		{"Version 3", "https://rjphares.github.io/Archive/2025-02-01/index.html", "2025-02-01"},
+		{"Version 2", "https://rjphares.github.io/Archive/2025-01-22/index.html", "2025-01-22"},
+		{"Version 1", "https://rjphares.github.io/Archive/2025-01-19/index.html", "2025-01-19"},
 	}
 	tpl.Execute(file, archives)
 	//parse the template

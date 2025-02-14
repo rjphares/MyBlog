@@ -31,7 +31,6 @@ func main() {
 		Date 			string;
 	}
 	archives := []archive{
-		{"Version 5", "https://rjphares.github.io/Archive/2025-02-11/index.html", "2025-02-11"},
 		{"Version 4", "https://rjphares.github.io/Archive/2025-02-05/index.html", "2025-02-05"},
 		{"Version 3", "https://rjphares.github.io/Archive/2025-02-01/index.html", "2025-02-01"},
 		{"Version 2", "https://rjphares.github.io/Archive/2025-01-22/index.html", "2025-01-22"},

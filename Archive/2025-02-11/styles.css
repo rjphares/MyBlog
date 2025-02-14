@@ -5,60 +5,52 @@
 
 .header-h1 {
   background-color: #5cb338;
+  /* color: #5cb338; */
   color: white;
 }
 
 nav {
   background-color: white;
-  display: flex;
-  justify-content: space-between;
+  /* display: flex;
+  gap: 0; */
+  font-size: 20px;
 }
 
 nav a {
-  font-weight: bold;
-  font-size: 20px;
-  flex-basis: 25%;
-  text-align: center;
-  box-sizing: border-box;
-  border: 3px solid black;
-  padding: 15px 0;
-  text-decoration: none;
-}
-
-nav a:nth-child(n + 2) {
-  border-left: 0;
+  display: block; /* each link takes a whole line */
 }
 
 nav a:link,
 nav a:visited,
 nav a:active {
   text-decoration: none;
-  color: #5cb338;
+  /* color: #5cb338; */
+  color: black;
 }
 
 nav a:hover {
-  background-color: #5cb338;
-  color: white;
-}
-
-.header-img1 {
-  vertical-align: middle;
+  text-decoration: underline;
+  /* color: #5cb338; */
+  color: black;
 }
 
 .header-h2 {
   background-color: #5cb338;
+  /* color: #5cb338; */
   color: white;
-  text-align: center;
-  padding: 15px 0;
+}
+
+.container-img1 {
+  display: block;
+  background-color: #5cb338;
+  line-height: 0;
 }
 
 .header-post-title {
   background-color: #5cb338;
+  /* color: #5cb338; */
   color: white;
-  text-align: center;
-  display: block;
   font-size: 20px;
-  padding-top: 15px;
 }
 
 .email:link,
@@ -73,10 +65,9 @@ nav a:hover {
 }
 
 .container-img2 {
-  text-align: center;
+  display: block;
   background-color: #5cb338;
   line-height: 0;
-  padding-bottom: 15px;
 }
 
 .header-post-body {
@@ -90,7 +81,6 @@ footer {
   color: white;
   font-size: 16px;
   text-align: center;
-  padding: 15px 0;
 }
 
 ul {
@@ -122,8 +112,6 @@ li a:hover {
 section .container-about-img {
   background-color: #5cb338;
   line-height: 0;
-  text-align: center;
-  padding-bottom: 15px;
 }
 
 section p {
@@ -135,23 +123,4 @@ section p {
 .footer-about footer {
   background-color: #5cb338;
   color: white;
-}
-
-code {
-  color: black;
-}
-
-.jonas {
-  font-weight: bold;
-}
-
-.jonas:link,
-.jonas:visited,
-.jonas:active {
-  text-decoration: none;
-  color: white;
-}
-
-.jonas:hover {
-  text-decoration: underline;
 }
